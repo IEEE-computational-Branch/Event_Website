@@ -4,7 +4,7 @@ import Backdrop from "./components/Backdrop"
 import Footer from "./components/Footer"
 import Hero from "./components/Hero"
 import Navbar from "./components/Navbar"
-import Register from "./components/Register"
+import Perks from "./components/Perks"
 import Speakers from "./components/Speakers"
 import Sponsors from "./components/Sponsors"
 
@@ -19,7 +19,7 @@ export default function App() {
             <About_Event/>
             <Sponsors/>
             <Speakers/>
-            <Register/>
+            <Perks/>
             <Footer/>
         </div>
     )
