@@ -2,7 +2,13 @@
 
 function Hero() {
   return (
-    <div>Hero</div>
+    <div className="-mt-[64px] bg-transparent text-white/95">
+      <div className="h-screen w-full max-w-6xl mx-auto flex flex-col justify-center">
+        <h1 className="font-display text-6xl tracking-wider">Hello There!</h1>
+        <p className="font-light mt-8 w-full max-w-[420px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <span className="mt-12 w-max bg-white text-black hover:bg-black hover:outline outline-1 outline-white hover:text-white px-12 py-3 rounded-full cursor-pointer text-lg">Register Now!</span>
+      </div>
+    </div>
   )
 }
 
