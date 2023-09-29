@@ -11,7 +11,7 @@ import Sponsors from "./components/Sponsors"
 
 export default function App() {
     return (
-        <div className='h-[100vh] w-[100vw] overflow-x-scroll'>
+        <>
             <Backdrop/>
             <Navbar/>
             <Hero/>
@@ -21,6 +21,6 @@ export default function App() {
             <Speakers/>
             <Perks/>
             <Footer/>
-        </div>
+        </>
     )
 }

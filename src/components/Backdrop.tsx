@@ -2,7 +2,7 @@
 
 function Backdrop() {
   return (
-    <div>Backdrop</div>
+    <div></div>
   )
 }
 
