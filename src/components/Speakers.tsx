@@ -2,9 +2,9 @@ import SpeakerCard from "./Speakers/SpeakerCard";
 
 function Speakers() {
 	return (
-		<div className="bg-slate-900">
+		<div className="bg-transparent">
 			<div className="w-full max-w-7xl mx-auto flex flex-col px-4 xl:px-0 pb-20 max-md:pb-12">
-				<h1 className="font-display text-5xl max-md:text-4xl tracking-wider pt-20 max-md:pt-12 bg-slate-900/50 backdrop-blur-lg pb-8 sticky top-[61px]">
+				<h1 className="font-display text-5xl max-md:text-4xl tracking-wider pt-20 max-md:pt-12 bg-black/50 backdrop-blur-lg pb-8 sticky top-[61px]">
 					Speakers
 				</h1>
 				<div className="grid grid-cols-4 max-xl:grid-cols-3 max-lg:grid-cols-2 max-sm:grid-cols-1 gap-4">
