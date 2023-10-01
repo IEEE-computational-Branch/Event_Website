@@ -9,7 +9,7 @@ function Navbar() {
   return (
     <div className="border-b border-white/40 backdrop-blur-lg text-white fixed w-full z-50 top-0">
       <div className="h-[64px] w-full max-w-7xl mx-auto flex flex-row items-center justify-between px-4 xl:px-0">
-        <span className="text-xl font-medium">IEEE CIS</span>
+        <span className="text-xl font-medium font-display">IEEE CIS</span>
 
         <div className="flex max-md:hidden flex-row gap-x-6 text-white/90 items-center">
           <span className="hover:text-white cursor-pointer">Home</span>
