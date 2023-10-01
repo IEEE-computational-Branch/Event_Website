@@ -1,4 +1,4 @@
-import About from '../assets/About.svg'
+import About from '../assets/imgs/logo.svg'
 
 function About_Us() {
   return (
