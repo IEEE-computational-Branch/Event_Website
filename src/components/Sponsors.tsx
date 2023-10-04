@@ -1,10 +1,10 @@
-import sponsors from '../data/sponsors.json'
+// import sponsors from '../data/sponsors.json'
 
 
-interface Sponsor {
-  name: string
-  imageUrl: string
-}
+// interface Sponsor {
+//   name: string
+//   imageUrl: string
+// }
 
 function Sponsors() {
   return (
