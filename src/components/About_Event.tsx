@@ -1,11 +1,11 @@
-import ui from "../assets/imgs/ui.png";
-import social from "../assets/imgs/social.png";
+// import ui from "../assets/imgs/ui.png";
+// import social from "../assets/imgs/social.png";
 import ai from "../assets/imgs/ai.png";
-import graphics from "../assets/imgs/graphics.jpg";
-import { useState } from "react";
+// import graphics from "../assets/imgs/graphics.jpg";
+// import { useState } from "react";
 
 function About_Event() {
-  const [data, setdata] = useState([
+  const data = [
     {
       head: "Web Development",
       context: "Full Stack Developement",
@@ -84,7 +84,7 @@ function About_Event() {
     // },
     
     
-  ]);
+  ];
   return (
       <div
         className="w-full max-w-7xl mx-auto flex flex-col px-4 xl:px-0"
