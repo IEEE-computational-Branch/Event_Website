@@ -2,7 +2,7 @@ import About from '../assets/imgs/logo.svg'
 
 function About_Us() {
   return (
- <div className="bg-transparent text-white/95 bg-cover bg-top flex justify-item-center" style={{backgroundImage: "url('https://img.freepik.com/premium-photo/planet-earth-isolated-black_41050-3269.jpg?w=1060')"}}>
+ <div className="bg-transparent text-white/95 bg-cover bg-top flex justify-item-center" id="about_us">
         <div className="h-screen w-full max-w-7xl mx-auto flex flex-col px-4 xl:px-0" style={{alignItems:"center",justifyContent:"center"}}>
         <h1 className="font-display text-6xl max-md:text-5xl tracking-wider">About Us</h1>
         <div className='my-10 flex flex-col-reverse sm:flex-row 'style={{justifyContent:"space-between",alignItems:"center"}}>

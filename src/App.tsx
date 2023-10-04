@@ -11,16 +11,16 @@ import Sponsors from "./components/Sponsors"
 
 export default function App() {
     return (
-        <>
+        <div className="w-full h-screen relative">
             <Backdrop/>
             <Navbar/>
             <Hero/>
             <About_Us/>
             <About_Event/>
-            <Sponsors/>
             <Speakers/>
-            <Perks/>
+            <Sponsors/>
+            {/* <Perks/> */}
             <Footer/>
-        </>
+        </div>
     )
 }

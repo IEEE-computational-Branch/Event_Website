@@ -12,11 +12,11 @@ function Navbar() {
         <span className="text-xl font-medium font-display">IEEE CIS</span>
 
         <div className="flex max-md:hidden flex-row gap-x-6 text-white/90 items-center">
-          <span className="hover:text-white cursor-pointer">Home</span>
-          <span className="hover:text-white cursor-pointer">About Us</span>
-          <span className="hover:text-white cursor-pointer">Event</span>
-          <span className="hover:text-white cursor-pointer">Speakers</span>
-          <span className="hover:text-white cursor-pointer">Sponsors</span>
+          <span className="hover:text-white cursor-pointer"><a href="#">Home</a></span>
+          <span className="hover:text-white cursor-pointer"><a href="#about_us">About Us</a></span>
+          <span className="hover:text-white cursor-pointer"><a href="#event">Event</a></span>
+          <span className="hover:text-white cursor-pointer"><a href="#speakers">Speakers</a></span>
+          <span className="hover:text-white cursor-pointer"><a href="#sponsors">Sponsors</a></span>
           <span className="bg-white text-black hover:bg-black hover:outline outline-1 outline-white hover:text-white px-4 py-1 rounded-full cursor-pointer">Register Now!</span>
         </div>
         
